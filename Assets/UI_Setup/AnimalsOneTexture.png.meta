@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: c5105ea3c9a279b4ebf3611a51d89fef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimalsOneTexture_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1821
+        width: 597
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e64bba0bdda7c48bb6a5733027d250
+      internalID: 506654898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_1
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1815
+        width: 533
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac74595e182d5b5408d2697de0172bda
+      internalID: 2009264693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_2
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1730
+        width: 436
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd41c774639d424a9f9f17ac2f2686f
+      internalID: -1881520413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_3
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1827
+        width: 483
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a310cdcf721213445a55c259a397df63
+      internalID: 1699091294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_7
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1066
+        width: 459
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3da4c5067d89d409dc37382c7bff48
+      internalID: 608796271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1125
+        width: 512
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5c485c0bf75d4f8acd6833847cf0a
+      internalID: 644600421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_11
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 1314
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111ba7eb68c1f34eaf36023c60adbe5
+      internalID: 771087813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 490
+        width: 508
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1263eba613ebc4c857e22b88501e7d
+      internalID: 757593723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_13
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1122
+        width: 506
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97fa9601e090ee40b276ee462f23c04
+      internalID: -1766133192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1131
+        width: 492
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39341a82bb05686498bfa474c41cf571
+      internalID: 163565213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_15
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 462
+        width: 521
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3730f41ae446cf42b7c69aca21a892d
+      internalID: 1078824459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_16
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 518
+        width: 502
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0d55d5fbc77c45a170e3b89c65cb9
+      internalID: 1855773199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_17
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 536
+        width: 507
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5593999edc964c940b599a9ccb5cc3fb
+      internalID: 320691088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 49
+        width: 617
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5839dce266e753448f86577b9e4676b
+      internalID: 1636791819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_19
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 9
+        width: 449
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3045ead5a6db09241b5791cd01fc2cae
+      internalID: 316369000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_20
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 429
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a6290a5d3532d43b5013c2eab351b4
+      internalID: 1763040284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_23
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b65aba772b854ba728709dea3b778
+      internalID: -353725973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_25
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 18
+        width: 502
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fb4854a4927548a4e5efee1e2fd22
+      internalID: -437635166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_27
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 5
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0345ee7ba5e5aaa4c8c848923c874009
+      internalID: -2126692843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsOneTexture_28
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 31
+        width: 408
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7c0298473b69d46b6e240e054b0bd6
+      internalID: 717907790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AnimalsOneTexture_0: 506654898
+      AnimalsOneTexture_1: 2009264693
+      AnimalsOneTexture_10: -1571620966
+      AnimalsOneTexture_11: 771087813
+      AnimalsOneTexture_12: 757593723
+      AnimalsOneTexture_13: -1766133192
+      AnimalsOneTexture_14: 163565213
+      AnimalsOneTexture_15: 1078824459
+      AnimalsOneTexture_16: 1855773199
+      AnimalsOneTexture_17: 320691088
+      AnimalsOneTexture_18: 1636791819
+      AnimalsOneTexture_19: 316369000
+      AnimalsOneTexture_2: -1881520413
+      AnimalsOneTexture_20: 1763040284
+      AnimalsOneTexture_21: 20784271
+      AnimalsOneTexture_22: 31624141
+      AnimalsOneTexture_23: -353725973
+      AnimalsOneTexture_24: 2058674758
+      AnimalsOneTexture_25: -437635166
+      AnimalsOneTexture_26: 162746806
+      AnimalsOneTexture_27: -2126692843
+      AnimalsOneTexture_28: 717907790
+      AnimalsOneTexture_29: -16073092
+      AnimalsOneTexture_3: 1699091294
+      AnimalsOneTexture_4: 316900804
+      AnimalsOneTexture_5: 1090628007
+      AnimalsOneTexture_6: 923398943
+      AnimalsOneTexture_7: 608796271
+      AnimalsOneTexture_8: 644600421
+      AnimalsOneTexture_9: -889720042
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
