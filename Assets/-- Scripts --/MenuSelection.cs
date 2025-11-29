@@ -6,14 +6,19 @@ using UnityEngine.UI;
 public class MenuSelection : MonoBehaviour
 {
     private static WaitForSeconds _waitForSeconds_5 = new WaitForSeconds(.5f);
-    public Button startBtn;
-    public int selectedCARDIs;
-    public Animation menuCloseAnim;
 
+    [Header("-- UI --")]
+    public Button startBtn;
+    public Animation menuCloseAnim;
+    public GridLayoutGroup gridLayoutGroup;
     public Image[] allAvailable_IMAGES;
     public int[] cardsRatio_OPT;
 
-    public GridLayoutGroup gridLayoutGroup;
+    private int selectedCARDIs;
+
+    [Header("-- Audio Setup --")]
+    public AudioSource audiSRC;
+    public AudioClip tapSound_CLIP;
 
     void OnEnable()
     {
@@ -22,17 +27,19 @@ public class MenuSelection : MonoBehaviour
             allAvailable_IMAGES[i].gameObject.SetActive(false);
         }
 
-        startBtn.interactable = true;
+        startBtn.interactable = false;
         gridLayoutGroup.enabled = true;
         menuCloseAnim.playAutomatically = true;
     }
 
-    public void TapOnMenu_CARDS(int index)
+    public void TapOnMenu_CARDS(int index) // Calling From 3 Cards MENU
     {
         selectedCARDIs = index;
+        audiSRC.PlayOneShot(tapSound_CLIP);
+        startBtn.interactable = true;
     }
 
-    public void TapOn_StartBtn()
+    public void TapOn_StartBtn() // Calling From Start Btn
     {
         StartCoroutine(StartGame_Now());
     }

@@ -38,6 +38,10 @@ public class GameManager : MonoBehaviour
     public int matchsCNT;
     public int turnsCNT;
 
+    [Header("-- Audio Setup --")]
+    public AudioSource audiSRC;
+    public AudioClip tapOnCard_CLIP, wrongTap_CLIP,correctTap_CLIP;
+
     // All Prvt Flds...
     private List<Sprite> cardSprites = new List<Sprite>();
     private System.Random _random = new System.Random();
@@ -148,6 +152,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator CheckSet_Card(int index)
     {
+        audiSRC.PlayOneShot(tapOnCard_CLIP);
         allImages[index].sprite = cardSprites[index];
 
         if (firstIndex == -1)
@@ -169,6 +174,9 @@ public class GameManager : MonoBehaviour
 
         if (cardSprites[firstIndex] == cardSprites[secondIndex])
         {
+            // Correct MATCHED
+            audiSRC.PlayOneShot(correctTap_CLIP);
+
             matchsCNT++;
             SaveManager.TotalMatches = matchsCNT; // Saving Matches
             SaveManager.SaveNow();
@@ -182,6 +190,9 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            // Wrong Matched
+            audiSRC.PlayOneShot(wrongTap_CLIP);
+
             allImages[firstIndex].sprite = backSideCARD;
             allImages[secondIndex].sprite = backSideCARD;
         }
